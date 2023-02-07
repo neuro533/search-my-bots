@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SearchBox from '../components/SearchBox';
 
 class App extends React.Component{
 
@@ -7,11 +8,16 @@ class App extends React.Component{
     super()
 
   }
+  
+  handleChange=()=>{
+
+  }
 
   render(){
   return(
-    <div>
+    <div className='tc'>
       Robo Project !
+      <SearchBox searchchange={this.handleChange} />
     </div>
   )
 
