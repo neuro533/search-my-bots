@@ -17,7 +17,7 @@ class App extends React.Component{
   render(){
   return(
     <div className='tc'>
-      Robo Project !
+      <h1 className="f2">Crazy Bots!</h1>
       <SearchBox searchchange={this.handleChange} />
       <CardList  />
     </div>
