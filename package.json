@@ -1,5 +1,6 @@
 {
   "name": "search-my-bots",
+  "Author":"Usama Khalid",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
