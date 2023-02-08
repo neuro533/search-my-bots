@@ -35,8 +35,8 @@ class App extends React.Component{
   render(){
   
    const {robots,searchField} = this.state;
-  const filteredRobots=robots.filter(robot=>{
-    robot.name.toLowerCase().includes(searchField.toLowerCase())
+   const filteredRobots=robots.filter(robot=>{
+    return robot.name.toLowerCase().includes(searchField.toLowerCase())
   }) 
 
 
@@ -49,7 +49,7 @@ class App extends React.Component{
       <h1 className="f2">Crazy Bots!</h1>
       <SearchBox searchChange={this.handleChange} />
       <Scroll>
-        <CardList  />
+        <CardList sendingRobotsToSearch={filteredRobots} />
       </Scroll>
     </div>
   );
