@@ -34,20 +34,25 @@ class App extends React.Component{
 
   render(){
   
+   const {robots,searchField} = this.state;
+  const filteredRobots=robots.filter(robot=>{
+    robot.name.toLowerCase().includes(searchField.toLowerCase())
+  }) 
 
-  return(
+
+   
+  return !robots.length ? 
+  <h1 className="tc"> Robots are Loading...</h1>
+  :
+  (
     <div className='tc'>
-    console.log(this.state.searchField)
-
       <h1 className="f2">Crazy Bots!</h1>
       <SearchBox searchChange={this.handleChange} />
       <Scroll>
-        
         <CardList  />
-
       </Scroll>
     </div>
-  )
+  );
 
   }
 
