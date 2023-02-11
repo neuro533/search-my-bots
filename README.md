@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# search-my-bots    ![Build Badge](https://img.shields.io/badge/Build-Passing-brightgreen)   ![React Badge](https://img.shields.io/badge/React-Front%20End%20Project-blue)  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+search-my-bots is a **React** web app that deals with bots in the form of cards which are fetched using fetch api to search from cards list, a logic created using Javascript  and each card data is unique and it is fetched from an api  known as [{JSON} Placeholder](https://jsonplaceholder.typicode.com/), a free fake API for testing and prototyping and by comparing the search string with the api data which is stored in the form of cards in local environment, it displays differentiating card from the rest of the list to display on viewport based on your search. 
 
-## Available Scripts
+This app mainly written in Javascript, HTML, css and nodejs.Front-End framework used in this project is **React** which is easy to work with. Below are the snippets of the project.    
 
-In the project directory, you can run:
+![This is snippet1](/snippets\snippet1.png)
+![This is snippet2](C:\Users\pc\Desktop\Usama\React\search-my-bots\snippets\snippet2.png)
+![This is snippet3](C:\Users\pc\Desktop\Usama\React\search-my-bots\snippets\snippet3.png)
+![This is snippet4](C:\Users\pc\Desktop\Usama\React\search-my-bots\snippets\snippet4.png)
 
-### `npm start`
+## Installation
+To install and run the project. Follow the below steps!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone this repo using the Git command below or checkout with SVN using the web URL into your local environment.
+```
+     
+     git clone https://github.com/neuro533/search-my-bots.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+Run the npm command to generate and customize your own version of package.json file. (**Optional**)
+``` 
+    
+     npm init or npm init --yes
 
-### `npm test`
+```
+Run the npm command to install all the dependencies.
+``` 
+       
+    npm install 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Run the npm command to start the developement server.
 
-### `npm run build`
+``` 
+    
+    npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+This project can be used with relational and non relational databases to display the contact details of an employee of a company where each card displays and hold records of employees of the company.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+PUll requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update testes as appropriate.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![License Badge](https://img.shields.io/badge/License-MIT-orange)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Enjoy. Happy Hacking!**
